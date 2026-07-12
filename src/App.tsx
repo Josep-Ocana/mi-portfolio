@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import { ProjectsSection } from "./components/ProjectsSection";
+import { SkillsSection } from "./components/SkillsSection";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <main className="pt-0">
         <HeroSection />
         <ProjectsSection />
+        <SkillsSection />
       </main>
     </>
   );
