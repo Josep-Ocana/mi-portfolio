@@ -1,5 +1,6 @@
+import { AboutSection } from "./components/AboutSection";
 import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
+import { HeroSection } from "./components/HeroSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { SkillsSection } from "./components/SkillsSection";
 
@@ -11,6 +12,7 @@ export default function App() {
         <HeroSection />
         <ProjectsSection />
         <SkillsSection />
+        <AboutSection />
       </main>
     </>
   );
